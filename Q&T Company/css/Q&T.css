@@ -1,0 +1,269 @@
+
+header{
+  background-size: auto;
+}
+.dark{
+  display: flex; justify-content: space-between;
+  background-size: auto;
+}
+par{
+    border-radius: 20px; position: fixed;
+    display: flex; justify-content: space-between;
+     border: solid; border-color: rgb(91, 94, 91);  padding:10px; 
+    background-color:rgb(52, 52, 56) ; right: 130px; width: 720px;
+    margin-left: 320px;  margin-right: 120px;
+}
+@media (max-width: 575.98px) {
+  header{
+    background-position: right center;
+  }
+}
+@media (max-width: 576px) and (max-width: 767.98px) {
+  header{
+    background-position: right center;
+  }
+}
+@media (max-width: 786px) and (max-width: 991.98px) {
+  header{
+    background-position: right center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px width */
+  body {
+    font-size: 14px;
+  }
+  /* Add more responsive styles as needed */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px width */
+  body {
+    font-size: 16px;
+  }
+  /* Add more responsive styles as needed */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Add more styles as needed */
+}
+
+
+.linkPar{
+  color: gold;
+  text-decoration-line: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-right: 0px;
+  font-size: 17px;
+}
+.linkpar:hover{
+
+}
+.Hhover{
+  background-color: rgb(37, 37, 37);
+
+}
+.Hhover:hover{
+background-color: black;
+}
+.Upar{
+  display: flex;
+  border: solid rgb(199, 188, 101);
+  border-radius: 40px;
+  width: 800px;
+}
+.about{
+  background-color: black;
+   position: absolute;
+   border-bottom: 10px;
+   border-color: orange; border:solid orange; width:120px; height: 20px;
+   padding-right:1080px;  padding-bottom: 850px;
+   margin-right: 545px;   left: 25px;
+}
+.pic{
+  height: 450px; width: 1200px;
+}
+.us{
+    display: flex; position: absolute;
+    margin-bottom: 50px;
+}
+
+.bgimage{
+ position: absolute;
+border: solid orange;
+border-top-width: 0px; border-left-width: 0px;
+height: 520px; width: 540px;
+}
+/*.text{
+      position: absolute;
+      margin-bottom: 300px;
+
+}*/
+.aboutcard{
+position: absolute;
+}
+
+.AbouText{
+   position: fixed;
+   margin-left: 570px; margin-right: 10px; margin-bottom: 870px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(158, 105, 6); font-size: 30px; position: absolute;
+    margin-bottom: 300px;
+    bottom: 80px; top: 20px;
+}
+
+.sectext{
+  position: absolute;
+  margin-bottom: 0px; bottom: 30px;
+  font-size: 30px; color:rgb(158, 105, 6);
+}
+
+.contact{
+  position: absolute;
+  left: 400px;
+  margin-left: 550px;
+  margin-top: 800px;
+  margin-bottom: -200px;   
+ 
+} 
+
+.send{
+  position: absolute;
+  left: -800px;
+  top: 1px;
+  color: rgb(250, 248, 248);
+  font-size: 25px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input{
+  margin-bottom: 90px; 
+  font-size: 14pt;
+}
+.form{
+  position: absolute;
+  left: -800px;
+  top: 70px;
+}
+
+.sub{
+  position: absolute;
+  top: 310px; right: 315px;
+}
+
+.sent{
+  position: absolute;
+  top: 350px; right: 359px;
+  top: 250px;
+}
+
+.email{
+  position: absolute;
+  top: 350px; right: 359px;
+}
+/*.end{
+  position: absolute;
+background-color: black;
+border: solid white;
+}*/
+
+.end{
+  display: flex; justify-content: space-between;
+  background-size: auto;
+  position: absolute;
+  background-color: black;
+  border: solid rgb(1, 43, 43); 
+  border-top-width: 20px; border-bottom-width: 0px;
+  top: 3990px;
+  right: 0px;
+  padding-top: 130px; padding-left: 155px;
+  padding-right: 1110px; padding-bottom: 350px; 
+  margin-right: 0px; margin-left: 1225px
+}
+.element{ 
+  position: relative;
+  color: aqua;
+  right: 0px; left: 0px; bottom: 80px;
+  font-size: 25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+  position: absolute;
+  border: solid rgb(77, 37, 114); border-width: 10px;
+  background-color: rgb(88, 75, 75);
+  bottom: 0px; padding-top: 90px; top: 35px;
+  width: 200px; left: 1100px; height: 180px;
+}
+.card:hover{
+  border-width: 12px;
+}
+.items{
+  position: relative;
+  bottom: 60px; right: 90px;
+}
+.ElementItems{
+  color: gold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration-line: none;
+  margin-left: 9px; margin-top: 10px;
+}
+.folink{
+  color: gold;
+  text-decoration-line: none;
+  font-size: 15px;
+}
+#FooterLink:hover{
+ font-size: 16px;
+}
+.cont{
+  position: absolute;
+  border: solid rgb(77, 37, 114); border-width: 10px;
+  background-color: rgb(88, 75, 75);
+  left: 1900px; top: 37px; width: 200px;
+  height: 280px; margin-top: 0px;
+}
+.cont:hover{
+  border-width: 12px;
+}
+.message{
+  position: absolute;
+  border: solid rgb(77, 37, 114);
+  background-color:  rgb(88, 75, 75);
+  border-width: 10px;
+  width: 200px; height: 275px;
+  top: 37px; left: 1500px;
+}
+.message:hover{
+  border-width: 12px;
+}
+.test{
+  border:solid 3px orange;
+
+}
+.test:hover{
+  border-width: px;
+}
+.cheak{
+  position: relative; background-color: rgb(1, 43, 43);
+  border: solid  rgb(77, 37, 114); border-width: 6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 50px; font-size: 20px;
+  top: 300px; height: 40px; width: 990px; left: 990px;
+}
+.backk{
+  position: relative;
+  border: solid goldenrod;
+  margin-top: 740px; right: 30px; 
+  margin-left: 30px; left: 0px;
+}
+.mail{
+  position: absolute;
+  top: 3500px; left: 200px;
+}
